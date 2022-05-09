@@ -1,0 +1,30 @@
+header{
+    position: relative;
+    top: 0;
+    width: 100%;
+    height: 60px;
+    color: white;
+    font-size: 1rem;
+    font-weight: 800;
+    transition: 0.4s;
+    .header-row{
+        height: 100%;
+        // color: $grey-color;
+        .ant-col{
+            &:hover{
+                color: white !important;
+            }
+        }
+
+        img{
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+        }
+
+        .right{
+            font-size: 1.3rem;
+        }
+    }
+
+}

@@ -1,0 +1,24 @@
+.base-btn{
+    padding: 1rem 3rem;
+    transition: 0.4s;
+    color: white;
+    background-color: transparent;
+    cursor: pointer;
+    font-weight: 900;
+    font-size: 1.2rem;
+    border-radius: 2rem;
+}
+
+.btn-blue{
+    border: 1px solid $blue-base-btn;
+    &:hover{
+        background-color: $blue-base-btn;
+    }
+}
+.btn-white{
+    border: 1px solid white;
+    &:hover{
+        background-color: white;
+        color: $blue-base-btn;
+    }
+}

@@ -1,0 +1,40 @@
+#brand-section{
+    color: white;
+    position: relative;
+    // background-color: red;
+    .above-1{
+        text-align: left;
+        svg{
+            font-size: 2.4rem;
+        }
+    }
+    .above-2{
+        text-align: left;
+        h1{
+            font-size: 4rem;
+            color: white;
+            font-weight: 900;
+        }
+    }
+    .above-3{
+        text-align: left;
+        h2{
+            color: white;
+            font-size: 2rem;
+            font-weight: 300;
+        }
+    }
+    .above-4{
+        text-align: left;
+        .right{
+            text-align: right;
+            .group-icons{
+                svg{
+                    font-size: 1.3rem;
+                    margin-right: 1rem;
+                }
+            }
+        }
+ 
+    }
+}
